@@ -1,16 +1,13 @@
-== Programs
+# Programs
 
-=== Adobe Flash
+## Adobe Flash
 
 https://ask.fedoraproject.org/en/question/10217/how-to-install-adobe-flash-on-fedora/
-
-[source,shell]
-----
+```
 sudo yum -y install http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm<br/>
 sudo rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
 sudo yum -y install flash-plugin
-----
-
+```
 Now you can check with "about:plugins" if the installation was succesfull.</p>
 
 
