@@ -1,4 +1,4 @@
-# Programs
+# Applications
 
 ## Adobe Flash
 
@@ -207,3 +207,10 @@ something like LastFile=./important/data.kdb
 Now this seems to be the path where KeePassX stored your passwords, open
 KeePassX and open this DB with File -> Open DB, now store it anywhere you want
 and you have back all your pws!
+
+## Eclipse (C/C++ development)
+
+Install Eclipse with yum
+```
+sudo yum install eclipse
+```
