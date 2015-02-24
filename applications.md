@@ -214,3 +214,13 @@ Install Eclipse with yum
 ```
 sudo yum install eclipse
 ```
+
+## Clion (EAP)
+
+Note: Im describing how to isntall the EAP build.
+
+Go to Clion webpage:
+https://www.jetbrains.com/clion/
+
+Now download the current version for linux.
+Read the ```Install-Linux-tar.txt``` which is a very usefull readme for installing Clion!

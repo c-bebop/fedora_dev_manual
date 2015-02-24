@@ -73,3 +73,24 @@ g++ --version
 ```
 
 And you'll see which version of the g++ is installed.
+
+## Eclipse Luna
+
+### Standard libraries problem
+
+If all your std includes (from the std libraries) do not work:
+
+Project -> Properties -> C/C++ General -> Preprocessor Include Paths, Macros etc. -> Proveders ->
+Now add "CDT GCC Built-in Compiler Settings"
+
+That should do the trick
+
+### C++11 problem
+
+There occured some problem for me where Eclipse Lina did not recognize the ```std::shared_ptr```, to change that I did the following:
+Project -> Properties -> C/C++ General -> Paths and Symbols -> GNU C++
+Now add a new one:
+Name: __cplusplus
+Value: 201103L
+
+That did the trick for me. I got this information from: https://www.eclipse.org/forums/index.php/t/490066/
