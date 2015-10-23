@@ -6,13 +6,18 @@ http://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guid
 
 ## Create Symbolic Link to binaries
 
+```bash
 sudo ln -s /<path>/<to>/<binary_file> /usr/bin/<name>
+```
 
 ## Create desktop entry
 
 Write the following in a text file called: <Apllication name>.desktop and store it in 
+```bash
 ~/.local/share/applications/
 ```
+
+```bash
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
@@ -31,4 +36,6 @@ there occurs an error and the xserver will restart, this seems to be a bug...
 
 ## Search for a library
 
+```bash
 yum provides */<lib_you_search_for>
+```
